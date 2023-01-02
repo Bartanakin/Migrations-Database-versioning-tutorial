@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+  db1:
+    container_name: production
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3310:3306
+
+  db2:
+    container_name: development
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3311:3306
+
+volumes:
+  dbdata:
+    driver: local
