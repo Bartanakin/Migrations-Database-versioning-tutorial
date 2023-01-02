@@ -6,7 +6,7 @@ return [
 //    'dbname' => 'chocolate_factory_snap2',
     'user' => 'root',
     'password' => 'root',
-    'host' => 'localhost:3610',
-//    'host' => 'localhost:3611',
+    'host' => 'localhost:3310',
+//    'host' => 'localhost:3311',
     'driver' => 'pdo_mysql',
 ];

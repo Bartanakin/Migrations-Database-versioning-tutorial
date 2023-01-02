@@ -11,7 +11,7 @@ return [
 
     'migrations_paths' => [
         'Migrations' => '/migrations/',
-        'Component\Migrations' => './Component/Migrations',
+        'Component\Migrations' => '/migrations',
     ],
 
     'all_or_nothing' => true,
